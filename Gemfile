@@ -6,7 +6,9 @@ git_source(:github) do |repo_name|
 end
 
 gem 'bcrypt', '3.1.11'
-
+gem 'pry-rails'
+gem 'better_errors'
+gem 'binding_of_caller'
 gem 'carrierwave'
 gem 'mini_magick'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
